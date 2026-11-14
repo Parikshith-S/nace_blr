@@ -122,6 +122,10 @@ else:
                 if b["note"]:
                     st.warning(b["note"])
         if r["status"] == "SOLD":
+            sold_banner = asset("banners", "sold")
+            if sold_banner:
+                _, mid, _ = st.columns([1, 2, 1])  # centred, half the column wide so bids stay in view
+                mid.image(str(sold_banner), width="stretch")
             st.markdown(f"<div class='sold' style='background:{colour.get(r['winner'])}'>SOLD to {A.names[r['winner']]} at ₹{r['price']:.2f} Cr</div>",
                         unsafe_allow_html=True)
         else:
