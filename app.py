@@ -75,7 +75,7 @@ for c, (tid, agent) in zip(cols, A.agents.items()):
     with c:
         logo = asset("logos", tid)
         if logo:
-            st.image(str(logo), width=70)
+            st.image(str(logo), width="stretch")  # wide banner logos: fill the team column
         purse, full = A.purses[tid], A.rules["purse_cr"]
         st.markdown(f"<b style='color:{colour.get(tid, '#333')};font-size:1.15rem'>{agent.name}</b>", unsafe_allow_html=True)
         st.progress(max(purse / full, 0.0), text=f"Purse ₹{purse:.2f} / {full:.0f} Cr · squad {len(A.squads[tid])}/{A.rules['squad_cap']}")
