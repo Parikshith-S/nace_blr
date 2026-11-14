@@ -1,6 +1,7 @@
 """Streamlit board:  .venv/bin/streamlit run app.py"""
 from __future__ import annotations
 
+import os
 import time
 from pathlib import Path
 
@@ -9,6 +10,7 @@ import streamlit as st
 from auction import config, drex
 from auction.engine import Auction
 from auction.ndi import load_profiles
+from auction.replay import DEFAULT_RUN, ReplayAuction
 
 st.set_page_config(page_title="IPL Auction Swarm", page_icon="🏏", layout="wide")
 
@@ -28,15 +30,30 @@ def profiles() -> dict:
     return load_profiles()
 
 
+REPLAY = "Replay: final live Drex run"
+LIVE = "Live: run the swarm on Drex now"
+# PUBLIC_DEMO=1 (for a shared link): replay only, so visitors never spend Drex credit
+PUBLIC = os.getenv("PUBLIC_DEMO", "").lower() in ("1", "true", "yes")
+modes = [REPLAY] if PUBLIC or not drex.config.DREX_API_KEY else [LIVE, REPLAY]
+if not DEFAULT_RUN.exists():
+    modes = [m for m in modes if m != REPLAY] or [LIVE]
+mode_choice = st.sidebar.radio("Mode", modes, help="Replay steps through results/final_run.json; Live calls Drex.")
+
+
 def new_auction() -> None:
     drex.METRICS.reset()
-    st.session_state.auction = Auction(profiles())
+    if mode_choice == REPLAY:
+        st.session_state.auction = ReplayAuction(data=profiles())
+    else:
+        st.session_state.auction = Auction(profiles())
+    st.session_state.mode = mode_choice
     st.session_state.autoplay = False
 
 
-if "auction" not in st.session_state:
+if "auction" not in st.session_state or st.session_state.get("mode") != mode_choice:
     new_auction()
-A: Auction = st.session_state.auction
+A = st.session_state.auction
+is_replay = getattr(A, "replay", False)
 colour = config.TEAM_COLOURS
 
 st.markdown("""
@@ -53,16 +70,18 @@ with h1:
     st.title("🏏 IPL Auction Swarm")
     st.caption("NDI → Intern agent swarm → Drex decisions → Drex explanations · fictional franchises · SIMPLIFIED rules")
 with h2:
-    m = drex.mode()
+    m = "replay of live run" if is_replay else drex.mode()
+    badge_bg = "#2563eb" if is_replay else "#16a34a" if m == "live" else "#d97706"
     st.markdown(
-        f"<span class='badge' style='background:{'#16a34a' if m == 'live' else '#d97706'}'>Drex {m.upper()}</span>"
+        f"<span class='badge' style='background:{badge_bg}'>Drex {m.upper()}</span>"
         f"<span class='badge' style='background:#2563eb'>NDI {A.data.get('mode', '?')}: {len(A.data['players'])} dossiers · {len(A.data['teams'])} briefs</span>"
         f"<span class='badge' style='background:#7c3aed'>Intern swarm: {len(A.agents)} franchises + auctioneer + commissioner</span>",
         unsafe_allow_html=True)
     b1, b2, b3 = st.columns(3)
-    if b1.button("▶ Next lot", disabled=A.done, width="stretch"):
-        with st.spinner("3 franchise agents asking Drex in parallel…"):
+    if b1.button("▶ Next lot", disabled=A.done, width="stretch") and not A.done:
+        with st.spinner("Replaying recorded Drex decisions…" if is_replay else "3 franchise agents asking Drex in parallel…"):
             A.run_lot()
+        st.rerun()  # redraw so the button disables after the last lot
     if b2.button("⏩ Auto-run" if not st.session_state.autoplay else "⏸ Pause", disabled=A.done, width="stretch"):
         st.session_state.autoplay = not st.session_state.autoplay
     if b3.button("↺ Reset", width="stretch"):
@@ -157,7 +176,9 @@ with t2:
             for pl in squad:
                 st.write(f"• {pl['name']} ({pl['role']}) ₹{pl['price']:.2f}")
 with t3:
-    st.json(drex.METRICS.summary())
+    if is_replay:
+        st.caption("Recorded from the full live Drex run (results/final_run.json).")
+    st.json(A.recorded_metrics if is_replay else drex.METRICS.summary())
 with t4:
     st.dataframe(A.data.get("documents") or [{"doc": p["source"]["doc"], "format": p["source"]["format"]} for p in A.data["players"]],
                  hide_index=True, width="stretch")

@@ -1,0 +1,272 @@
+
+Drex mode: LIVE   NDI: intern   lots: 8   rules: purse ₹30.0 Cr, squad cap 6, overseas ≤ 2 (SIMPLIFIED)
+
+====================================================================================================
+LOT 1: Liam Carver | Fast bowler | base ₹2.0 Cr | OVERSEAS | source docs/players/P02_liam_carver.pdf (pdf)
+  [Harbour Hawks    ] BID  max ₹12.75 Cr  fit 1.00  inj 0.00  
+      BID up to ₹12.75 Cr: matches our top-priority stated need. “Our Need 1 [death_bowler]: We MUST
+      land a genuine death bowler; we leaked 11.4 an over at the death last season.”
+      [HH_harbour_hawks_strategy_brief.pdf p1] “Scouting: Grade A. Best yorker in the pool; 24
+      wickets in overs 17-20 over two seasons. 145+ kph.” [P02_liam_carver.pdf p1]
+  [Plateau Panthers ] PASS max ₹ 0.00 Cr  fit 0.06  inj 0.00  
+      PASS: it does not fit our stated needs (does not match any need stated in our brief). “Our
+      Need 1 [spinner]: Home pitch is slow and turning; a wicket-taking spinner is our top
+      priority.” [PP_plateau_panthers_strategy_brief.pdf p1] “Death-overs economy 8.6, 79 wickets in
+      61 matches” [P02_liam_carver.pdf p1]
+  [Desert Strikers  ] BID  max ₹ 7.25 Cr  fit 0.67  inj 0.00  
+      BID up to ₹7.25 Cr: matches a lower-priority stated need. “Our Need 2 [death_bowler]: Second
+      priority: someone to bowl two of the last four overs.” [DS_desert_strikers_strategy_brief.pdf
+      p1] “Scouting: Grade A. Best yorker in the pool; 24 wickets in overs 17-20 over two seasons.
+      145+ kph.” [P02_liam_carver.pdf p1]
+
+  >>> SOLD to Harbour Hawks at ₹7.50 Cr   (Second-highest maximum ₹7.25 Cr + one increment ₹0.25 Cr.)
+    WHY WON: Harbour Hawks won at ₹7.50 Cr (their max ₹12.75 Cr). The player matched their top
+    stated need, so they valued him highest. In their words: “Our Need 1 [death_bowler]: We MUST
+    land a genuine death bowler; we leaked 11.4 an over at the death last season.”
+    [HH_harbour_hawks_strategy_brief.pdf p1]
+    WHY Plateau Panthers LOST: Passed: the player does not fit their stated squad needs. PASS: it
+    does not fit our stated needs (does not match any need stated in our brief). Evidence: “Our Need
+    1 [spinner]: Home pitch is slow and turning; a wicket-taking spinner is our top priority.”
+    [PP_plateau_panthers_strategy_brief.pdf p1]
+    WHY Desert Strikers LOST: Bid, but their maximum was lower than the winner's. BID up to ₹7.25
+    Cr: matches a lower-priority stated need. Evidence: “Our Need 2 [death_bowler]: Second priority:
+    someone to bowl two of the last four overs.” [DS_desert_strikers_strategy_brief.pdf p1]
+    🎙 A strong bid from the Harbour Hawks! 12.75 rupees to start, a big offer from the Harbour
+    Hawks. Desert Strikers come in with 7.25 rupees, a brave bid. Plateau Panthers pass with a zero
+    bid, no interest there. Harbour Hawks come back in, a new high of 7.50 ru
+  Purses: Harbour Hawks ₹22.50  Plateau Panthers ₹30.00  Desert Strikers ₹30.00
+====================================================================================================
+LOT 2: Kofi Mensah | All-rounder | base ₹2.0 Cr | OVERSEAS | source docs/players/P04_kofi_mensah.pdf (pdf)
+  [Harbour Hawks    ] BID  max ₹11.25 Cr  fit 0.62  inj 0.04  
+      BID up to ₹11.25 Cr: matches a lower-priority stated need. “Scouting: Grade A. Genuine 4-over
+      bowler who bats at 6. Match-winner in both disciplines.” [P04_kofi_mensah.pdf p1] “Death-overs
+      economy 9.6, 37 wickets in 49 matches” [P04_kofi_mensah.pdf p1]
+  [Plateau Panthers ] PASS max ₹ 0.00 Cr  fit 0.13  inj 0.14  
+      PASS: it does not fit our stated needs (does not match any need stated in our brief). “Our
+      overseas policy: Prefer Indian core; at most one overseas buy.”
+      [PP_plateau_panthers_strategy_brief.pdf p1] “Death-overs economy 9.6, 37 wickets in 49
+      matches” [P04_kofi_mensah.pdf p1]
+  [Desert Strikers  ] PASS max ₹ 0.00 Cr  fit 0.99  inj 1.00  
+      PASS: injury record conflicts with our risk policy (matches our top-priority stated need).
+      “Our risk policy: Strictly avoid players with an unresolved injury or pending fitness test.”
+      [DS_desert_strikers_strategy_brief.pdf p1] “Injury: Side strain in October; missed 6 weeks.
+      Fitness test PENDING before the season. (risk medium)” [P04_kofi_mensah.pdf p1]
+
+  >>> SOLD to Harbour Hawks at ₹2.00 Cr   (Only eligible bidder: pays base price.)
+    WHY WON: Harbour Hawks won at ₹2.00 Cr (their max ₹11.25 Cr). They were the only eligible
+    bidder. In their words: “Scouting: Grade A. Genuine 4-over bowler who bats at 6. Match-winner in
+    both disciplines.” [P04_kofi_mensah.pdf p1]
+    WHY Plateau Panthers LOST: Passed: the player does not fit their stated squad needs. PASS: it
+    does not fit our stated needs (does not match any need stated in our brief). Evidence: “Our
+    overseas policy: Prefer Indian core; at most one overseas buy.”
+    [PP_plateau_panthers_strategy_brief.pdf p1]
+    WHY Desert Strikers LOST: Passed: the player's injury record conflicts with their risk policy.
+    PASS: injury record conflicts with our risk policy (matches our top-priority stated need).
+    Evidence: “Our risk policy: Strictly avoid players with an unresolved injury or pending fitness
+    test.” [DS_desert_strikers_strategy_brief.pdf p1]
+    🎙 And here's the next one, folks! We've got Kofi Mensah, the all-rounder, going under the
+    hammer... Harbour Hawks jumping in at ₹11.25... Plateau Panthers and Desert Strikers are out of
+    the running, passing at ₹0.00... going once, going twice... SOLD to Harbour Hawks for ₹
+  Purses: Harbour Hawks ₹20.50  Plateau Panthers ₹30.00  Desert Strikers ₹30.00
+====================================================================================================
+LOT 3: Rohan Deshpande | Leg-spinner | base ₹1.0 Cr | Indian | source docs/players/P03_rohan_deshpande_scan.pdf (pdf)
+  [Harbour Hawks    ] PASS max ₹ 0.00 Cr  fit 0.27  inj 0.00  
+      PASS: it does not fit our stated needs (depth / nice-to-have, not a stated need). “Scouting:
+      Grade A-.Googly ishard topick;strikerate 18balls/wicketin themiddle overs.
+      Thrivesonslowpitches.” [P03_rohan_deshpande_scan.pdf p1] “Death-overs economy 9.8, 41 wickets
+      in 33 matches” [P03_rohan_deshpande_scan.pdf p1]
+  [Plateau Panthers ] BID  max ₹ 8.00 Cr  fit 1.00  inj 0.00  
+      BID up to ₹8.00 Cr: matches our top-priority stated need. “Our Need 1 [spinner]: Home pitch is
+      slow and turning; a wicket-taking spinner is our top priority.”
+      [PP_plateau_panthers_strategy_brief.pdf p1] “Base price ₹1.00 Cr; overseas=no; age 24”
+      [P03_rohan_deshpande_scan.pdf p1]
+  [Desert Strikers  ] PASS max ₹ 0.00 Cr  fit 0.31  inj 0.01  
+      PASS: it does not fit our stated needs (depth / nice-to-have, not a stated need). “Our budget
+      policy: Balanced spend across the squad. One big swing (all-rounder), otherwise 2-6 Cr per
+      player.” [DS_desert_strikers_strategy_brief.pdf p1] “Death-overs economy 9.8, 41 wickets in 33
+      matches” [P03_rohan_deshpande_scan.pdf p1]
+
+  >>> SOLD to Plateau Panthers at ₹1.00 Cr   (Only eligible bidder: pays base price.)
+    WHY WON: Plateau Panthers won at ₹1.00 Cr (their max ₹8.00 Cr). They were the only eligible
+    bidder. In their words: “Our Need 1 [spinner]: Home pitch is slow and turning; a wicket-taking
+    spinner is our top priority.” [PP_plateau_panthers_strategy_brief.pdf p1]
+    WHY Harbour Hawks LOST: Passed: the player does not fit their stated squad needs. PASS: it does
+    not fit our stated needs (depth / nice-to-have, not a stated need). Evidence: “Scouting: Grade
+    A-.Googly ishard topick;strikerate 18balls/wicketin themiddle overs. Thrivesonslowpitches.”
+    [P03_rohan_deshpande_scan.pdf p1]
+    WHY Desert Strikers LOST: Passed: the player does not fit their stated squad needs. PASS: it
+    does not fit our stated needs (depth / nice-to-have, not a stated need). Evidence: “Our budget
+    policy: Balanced spend across the squad. One big swing (all-rounder), otherwise 2-6 Cr per
+    player.” [DS_desert_strikers_strategy_brief.pdf p1]
+    🎙 And here's the excitement, folks! Rohan Deshpande, the talented leg-spinner, is up for grabs,
+    and we have a bid from the Plateau Panthers! They're willing to pay a whopping ₹1.00 Cr for his
+    services, going once, going twice... SOLD to Plateau Panthers for ₹1.00 Cr!
+  Purses: Harbour Hawks ₹20.50  Plateau Panthers ₹29.00  Desert Strikers ₹30.00
+====================================================================================================
+LOT 4: Arjun Malhotra | Batter | base ₹2.0 Cr | Indian | source docs/players/P01_arjun_malhotra.pdf (pdf)
+  [Harbour Hawks    ] BID  max ₹ 7.50 Cr  fit 0.66  inj 0.00  
+      BID up to ₹7.50 Cr: matches a lower-priority stated need. “Scouting: Grade A. Elite six-hitter
+      in overs 16-20 (SR 191 at the death). Struggles slightly vs. wrist spin.”
+      [P01_arjun_malhotra.pdf p1] “Our Need 2 [finisher]: Need a finisher who can strike at 160+ in
+      overs 16-20.” [HH_harbour_hawks_strategy_brief.pdf p1]
+  [Plateau Panthers ] PASS max ₹ 0.00 Cr  fit 0.16  inj 0.00  
+      PASS: it does not fit our stated needs (does not match any need stated in our brief). “Strike
+      rate 168.2, average 34.4, 1240 runs” [P01_arjun_malhotra.pdf p1] “Scouting: Grade A. Elite
+      six-hitter in overs 16-20 (SR 191 at the death). Struggles slightly vs. wrist spin.”
+      [P01_arjun_malhotra.pdf p1]
+  [Desert Strikers  ] PASS max ₹ 0.00 Cr  fit 0.33  inj 0.00  
+      PASS: it does not fit our stated needs (depth / nice-to-have, not a stated need). “Scouting:
+      Grade A. Elite six-hitter in overs 16-20 (SR 191 at the death). Struggles slightly vs. wrist
+      spin.” [P01_arjun_malhotra.pdf p1] “Our budget policy: Balanced spend across the squad. One
+      big swing (all-rounder), otherwise 2-6 Cr per player.” [DS_desert_strikers_strategy_brief.pdf
+      p1]
+
+  >>> SOLD to Harbour Hawks at ₹2.00 Cr   (Only eligible bidder: pays base price.)
+    WHY WON: Harbour Hawks won at ₹2.00 Cr (their max ₹7.50 Cr). They were the only eligible bidder.
+    In their words: “Scouting: Grade A. Elite six-hitter in overs 16-20 (SR 191 at the death).
+    Struggles slightly vs. wrist spin.” [P01_arjun_malhotra.pdf p1]
+    WHY Plateau Panthers LOST: Passed: the player does not fit their stated squad needs. PASS: it
+    does not fit our stated needs (does not match any need stated in our brief). Evidence: “Strike
+    rate 168.2, average 34.4, 1240 runs” [P01_arjun_malhotra.pdf p1]
+    WHY Desert Strikers LOST: Passed: the player does not fit their stated squad needs. PASS: it
+    does not fit our stated needs (depth / nice-to-have, not a stated need). Evidence: “Scouting:
+    Grade A. Elite six-hitter in overs 16-20 (SR 191 at the death). Struggles slightly vs. wrist
+    spin.” [P01_arjun_malhotra.pdf p1]
+    🎙 The bidding war for Arjun Malhotra is heating up! Harbour Hawks pushes the limits with a bid
+    of ₹2.00 Cr, will anyone else take a bite?... going once, going twice... SOLD to Harbour Hawks
+    for ₹2.00 Cr!
+  Purses: Harbour Hawks ₹18.50  Plateau Panthers ₹29.00  Desert Strikers ₹30.00
+====================================================================================================
+LOT 5: Ishaan Rao | Opening batter | base ₹1.5 Cr | Indian | source docs/players/P05_ishaan_rao.pdf (pdf)
+  [Harbour Hawks    ] PASS max ₹ 0.00 Cr  fit 0.16  inj 0.00  
+      PASS: it does not fit our stated needs (does not match any need stated in our brief). “Strike
+      rate 142.3, average 41, 1105 runs” [P05_ishaan_rao.pdf p1] “Scouting: Grade A-. Technically
+      the best young opener in the pool. Powerplay SR 138, improving every season.”
+      [P05_ishaan_rao.pdf p1]
+  [Plateau Panthers ] BID  max ₹ 8.75 Cr  fit 0.66  inj 0.00  
+      BID up to ₹8.75 Cr: matches a lower-priority stated need. “Our Need 2 [opener]: Need a young,
+      consistent opener (average 35+).” [PP_plateau_panthers_strategy_brief.pdf p1] “Our budget
+      policy: Value hunters. Hard ceiling of 10 Cr on any single player. Prefer under-25s who can
+      grow with us.” [PP_plateau_panthers_strategy_brief.pdf p1]
+  [Desert Strikers  ] BID  max ₹ 6.25 Cr  fit 0.67  inj 0.00  
+      BID up to ₹6.25 Cr: matches a lower-priority stated need. “Our Need 3 [opener]: An aggressive
+      opener if budget allows.” [DS_desert_strikers_strategy_brief.pdf p1] “Scouting: Grade A-.
+      Technically the best young opener in the pool. Powerplay SR 138, improving every season.”
+      [P05_ishaan_rao.pdf p1]
+
+  >>> SOLD to Plateau Panthers at ₹6.50 Cr   (Second-highest maximum ₹6.25 Cr + one increment ₹0.25 Cr.)
+    WHY WON: Plateau Panthers won at ₹6.50 Cr (their max ₹8.75 Cr). They had the purse and
+    willingness to go higher than every rival. In their words: “Our Need 2 [opener]: Need a young,
+    consistent opener (average 35+).” [PP_plateau_panthers_strategy_brief.pdf p1]
+    WHY Harbour Hawks LOST: Passed: the player does not fit their stated squad needs. PASS: it does
+    not fit our stated needs (does not match any need stated in our brief). Evidence: “Strike rate
+    142.3, average 41, 1105 runs” [P05_ishaan_rao.pdf p1]
+    WHY Desert Strikers LOST: Bid, but their maximum was lower than the winner's. BID up to ₹6.25
+    Cr: matches a lower-priority stated need. Evidence: “Our Need 3 [opener]: An aggressive opener
+    if budget allows.” [DS_desert_strikers_strategy_brief.pdf p1]
+    🎙 "Rao's aggressive style is sure to get the crowd on their feet! Going once, going twice...
+    SOLD to Plateau Panthers for a whopping ₹6.50 Cr!"
+  Purses: Harbour Hawks ₹18.50  Plateau Panthers ₹22.50  Desert Strikers ₹30.00
+====================================================================================================
+LOT 6: Dane Whitfield | Fastbowler | base ₹1.5 Cr | OVERSEAS | source docs/players/P07_dane_whitfield_scan.pdf (pdf)
+  [Harbour Hawks    ] PASS max ₹ 0.00 Cr  fit 0.98  inj 1.00  
+      PASS: injury record conflicts with our risk policy (matches our top-priority stated need).
+      “Our risk policy: Will tolerate minor, cleared injuries. Avoid recurring back injuries in fast
+      bowlers.” [HH_harbour_hawks_strategy_brief.pdf p1] “Injury: Lumbarstressfracture
+      in2025;secondbackinjury in threeyears.Recurring risk. (risk high)”
+      [P07_dane_whitfield_scan.pdf p1]
+  [Plateau Panthers ] PASS max ₹ 0.00 Cr  fit 0.04  inj 0.94  
+      PASS: injury record conflicts with our risk policy (does not match any need stated in our
+      brief). “Injury: Lumbarstressfracture in2025;secondbackinjury in threeyears.Recurring risk.
+      (risk high)” [P07_dane_whitfield_scan.pdf p1] “Death-overs economy 8.9, 36 wickets in 27
+      matches” [P07_dane_whitfield_scan.pdf p1]
+  [Desert Strikers  ] PASS max ₹ 0.00 Cr  fit 0.66  inj 0.99  
+      PASS: injury record conflicts with our risk policy (matches a lower-priority stated need).
+      “Our risk policy: Strictly avoid players with an unresolved injury or pending fitness test.”
+      [DS_desert_strikers_strategy_brief.pdf p1] “Injury: Lumbarstressfracture
+      in2025;secondbackinjury in threeyears.Recurring risk. (risk high)”
+      [P07_dane_whitfield_scan.pdf p1]
+
+  >>> Dane Whitfield goes UNSOLD.   (No eligible bids at or above base price.)
+    WHY Harbour Hawks LOST: PASS: injury record conflicts with our risk policy (matches our top-
+    priority stated need). Evidence: “Our risk policy: Will tolerate minor, cleared injuries. Avoid
+    recurring back injuries in fast bowlers.” [HH_harbour_hawks_strategy_brief.pdf p1]
+    WHY Plateau Panthers LOST: PASS: injury record conflicts with our risk policy (does not match
+    any need stated in our brief). Evidence: “Injury: Lumbarstressfracture in2025;secondbackinjury
+    in threeyears.Recurring risk. (risk high)” [P07_dane_whitfield_scan.pdf p1]
+    WHY Desert Strikers LOST: PASS: injury record conflicts with our risk policy (matches a lower-
+    priority stated need). Evidence: “Our risk policy: Strictly avoid players with an unresolved
+    injury or pending fitness test.” [DS_desert_strikers_strategy_brief.pdf p1]
+    🎙 "AND Dane Whitfield, the fastbowling sensation, is going under the hammer... NO BIDS! The
+    Harbour Hawks, Panthers, and Desert Strikers all pass, leaving Dane Whitfield UNSOLD!"
+  Purses: Harbour Hawks ₹18.50  Plateau Panthers ₹22.50  Desert Strikers ₹30.00
+====================================================================================================
+LOT 7: Sameer Qureshi | Spin all-rounder | base ₹0.75 Cr | Indian | source docs/players/P08_sameer_qureshi.pdf (pdf)
+  [Harbour Hawks    ] PASS max ₹ 0.00 Cr  fit 0.33  inj 0.00  
+      PASS: it does not fit our stated needs (depth / nice-to-have, not a stated need). “Scouting:
+      Grade B. Tidy off-spin, useful lower-order hitter. Good value depth pick.”
+      [P08_sameer_qureshi.pdf p1] “Strike rate 134, average 22.6, 520 runs” [P08_sameer_qureshi.pdf
+      p1]
+  [Plateau Panthers ] BID  max ₹ 4.25 Cr  fit 0.53  inj 0.01  
+      BID up to ₹4.25 Cr: matches a lower-priority stated need. “Scouting: Grade B. Tidy off-spin,
+      useful lower-order hitter. Good value depth pick.” [P08_sameer_qureshi.pdf p1] “Our Need 1
+      [spinner]: Home pitch is slow and turning; a wicket-taking spinner is our top priority.”
+      [PP_plateau_panthers_strategy_brief.pdf p1]
+  [Desert Strikers  ] BID  max ₹ 6.25 Cr  fit 0.59  inj 0.00  
+      BID up to ₹6.25 Cr: matches a lower-priority stated need. “Scouting: Grade B. Tidy off-spin,
+      useful lower-order hitter. Good value depth pick.” [P08_sameer_qureshi.pdf p1] “Our budget
+      policy: Balanced spend across the squad. One big swing (all-rounder), otherwise 2-6 Cr per
+      player.” [DS_desert_strikers_strategy_brief.pdf p1]
+
+  >>> SOLD to Desert Strikers at ₹4.50 Cr   (Second-highest maximum ₹4.25 Cr + one increment ₹0.25 Cr.)
+    WHY WON: Desert Strikers won at ₹4.50 Cr (their max ₹6.25 Cr). They had the purse and
+    willingness to go higher than every rival. In their words: “Scouting: Grade B. Tidy off-spin,
+    useful lower-order hitter. Good value depth pick.” [P08_sameer_qureshi.pdf p1]
+    WHY Harbour Hawks LOST: Passed: the player does not fit their stated squad needs. PASS: it does
+    not fit our stated needs (depth / nice-to-have, not a stated need). Evidence: “Scouting: Grade
+    B. Tidy off-spin, useful lower-order hitter. Good value depth pick.” [P08_sameer_qureshi.pdf p1]
+    WHY Plateau Panthers LOST: Bid, but their maximum was lower than the winner's. BID up to ₹4.25
+    Cr: matches a lower-priority stated need. Evidence: “Scouting: Grade B. Tidy off-spin, useful
+    lower-order hitter. Good value depth pick.” [P08_sameer_qureshi.pdf p1]
+    🎙 And it's Sameer Qureshi, the skilled spin all-rounder, up for grabs here, folks! Harbour Hawks
+    PASS on this one, a surprising decision, if you ask me... going once, going twice... SOLD to
+    Desert Strikers for ₹4.50 Cr!
+  Purses: Harbour Hawks ₹18.50  Plateau Panthers ₹22.50  Desert Strikers ₹25.50
+====================================================================================================
+LOT 8: Nikhil Bhatt | Batter (uncapped) | base ₹0.5 Cr | Indian | source docs/players/P09_nikhil_bhatt.xlsx (xlsx)
+  [Harbour Hawks    ] BID  max ₹ 3.75 Cr  fit 0.61  inj 0.00  
+      BID up to ₹3.75 Cr: matches a lower-priority stated need. “Our Need 2 [finisher]: Need a
+      finisher who can strike at 160+ in overs 16-20.” [HH_harbour_hawks_strategy_brief.pdf p1]
+      “Strike rate 175.1, average 26.8, 214 runs” [P09_nikhil_bhatt.xlsx p1]
+  [Plateau Panthers ] BID  max ₹ 3.00 Cr  fit 0.28  inj 0.01  
+      BID up to ₹3.00 Cr: depth / nice-to-have, not a stated need. “Our risk policy: Moderate. Will
+      gamble on young uncapped players at low prices.” [PP_plateau_panthers_strategy_brief.pdf p1]
+      “Strike rate 175.1, average 26.8, 214 runs” [P09_nikhil_bhatt.xlsx p1]
+  [Desert Strikers  ] PASS max ₹ 0.00 Cr  fit 0.31  inj 0.00  
+      PASS: it does not fit our stated needs (depth / nice-to-have, not a stated need). “Scouting:
+      Grade B-. Uncapped domestic star; huge SR but tiny sample. High upside.”
+      [P09_nikhil_bhatt.xlsx p1] “Our budget policy: Balanced spend across the squad. One big swing
+      (all-rounder), otherwise 2-6 Cr per player.” [DS_desert_strikers_strategy_brief.pdf p1]
+
+  >>> SOLD to Harbour Hawks at ₹3.25 Cr   (Second-highest maximum ₹3.00 Cr + one increment ₹0.25 Cr.)
+    WHY WON: Harbour Hawks won at ₹3.25 Cr (their max ₹3.75 Cr). They had the purse and willingness
+    to go higher than every rival. In their words: “Our Need 2 [finisher]: Need a finisher who can
+    strike at 160+ in overs 16-20.” [HH_harbour_hawks_strategy_brief.pdf p1]
+    WHY Plateau Panthers LOST: Bid, but their maximum was lower than the winner's. BID up to ₹3.00
+    Cr: depth / nice-to-have, not a stated need. Evidence: “Our risk policy: Moderate. Will gamble
+    on young uncapped players at low prices.” [PP_plateau_panthers_strategy_brief.pdf p1]
+    WHY Desert Strikers LOST: Passed: the player does not fit their stated squad needs. PASS: it
+    does not fit our stated needs (depth / nice-to-have, not a stated need). Evidence: “Scouting:
+    Grade B-. Uncapped domestic star; huge SR but tiny sample. High upside.” [P09_nikhil_bhatt.xlsx
+    p1]
+    🎙 And here's another exciting bid! Player: Vikash Patel (Bowler (uncapped))... Harbour Hawks BID
+    2.50, Plateau Panthers BID 2.00, Desert Strikers PASS 0.00... going once, going twice... SOLD to
+    Harbour Hawks for ₹2.25 Cr!
+  Purses: Harbour Hawks ₹15.25  Plateau Panthers ₹22.50  Desert Strikers ₹25.50
+====================================================================================================
+FINAL SQUADS
+  Harbour Hawks     spent ₹14.75 Cr: Liam Carver (₹7.5), Kofi Mensah (₹2.0), Arjun Malhotra (₹2.0), Nikhil Bhatt (₹3.25)
+  Plateau Panthers  spent ₹7.50 Cr: Rohan Deshpande (₹1.0), Ishaan Rao (₹6.5)
+  Desert Strikers   spent ₹4.50 Cr: Sameer Qureshi (₹4.5)
+
+Drex metrics: {'mode': 'live', 'drex_calls': 31, 'questions_answered': 141, 'avg_latency_ms': 391.0, 'total_cost_usd': 0.0, 'cost_per_call_usd': 0.0, 'tokens_in': 44431, 'tokens_out': 28592, 'errors': 0, 'by_purpose': {'franchise': 24, 'commissioner': 7}}
