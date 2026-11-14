@@ -61,7 +61,7 @@ skips parsing and uses ground truth.
 Results: every run is logged to `logs/auction_<ts>.json` with Drex metrics (calls, avg latency, cost/call).
 
 ## Partner tools
-- **Adobe Firefly / Express**: franchise logos → `assets/logos/{HH,PP,DS}.png`, SOLD cards →
+- **Adobe Firefly / Express**: franchise logos → `assets/logos/{HH,PP,DS}.png`, SOLD cards   →
   `assets/cards/<player_id>.png`, final poster → `assets/posters/final.png` (the UI picks them up automatically).
 - **DeepInfra**: live commentary line per lot (`auction/commentary.py`), never used for decisions.
 
