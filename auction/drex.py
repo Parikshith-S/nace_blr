@@ -104,7 +104,7 @@ class _Live:
             self.events.append(event)
 
         async def make() -> DecisionClient:
-            return DecisionClient(backend, emit, timeout_s=config.DREX_TIMEOUT_S, retry_window_s=30)
+            return DecisionClient(backend, emit, timeout_s=config.DREX_TIMEOUT_S, retry_window_s=8)
 
         self.client = asyncio.run_coroutine_threadsafe(make(), self.loop).result()
 
@@ -124,15 +124,18 @@ def _plain(a: Any) -> dict:
 
 _live: _Live | None = None
 _live_lock = threading.Lock()
+_disabled: str | None = None  # set after an auth/billing failure: stop retrying, report honestly
 
 
 def mode() -> str:
+    if _disabled:
+        return f"mock (live failed: {_disabled})"
     return "live" if (HAVE_INTERN and config.DREX_API_KEY) else "mock"
 
 
 def ask(purpose: str, state: str, questions: dict, *, mock: Callable[[], dict]) -> dict:
     """Ask Drex. Returns {name: {"choice"/"score"/"noul": ..., "probabilities": ...}}; score is 0..1."""
-    global _live
+    global _live, _disabled
     t0 = time.perf_counter()
     if mode() == "live":
         with _live_lock:
@@ -146,6 +149,10 @@ def ask(purpose: str, state: str, questions: dict, *, mock: Callable[[], dict]) 
             return answers
         except Exception as e:  # keep the demo alive; count it
             METRICS.errors += 1
+            # 401 bad key, 402 no credit: retrying won't help, so stop paying the retry window on every lot
+            code = next((c for c in ("401", "402", "403") if f"'{c} " in str(e)), None)
+            if code:
+                _disabled = f"HTTP {code}"
             print(f"[drex] {purpose} failed, using mock: {e}")
     answers = mock()
     METRICS.record(purpose, len(questions), (time.perf_counter() - t0) * 1000)
@@ -159,5 +166,31 @@ def ping() -> str:
     return f"mode={mode()} answer={a} metrics={METRICS.summary()}"
 
 
+def doctor() -> None:
+    """Try each key variable against the configured Drex endpoint. Prints status codes only, never key values."""
+    import os
+
+    import httpx
+
+    body = {"state": "connectivity check", "questions": {"ok": {"type": "noul", "instructions": "Is this a connectivity check?"}}}
+    url = f"{config.DREX_BASE_URL.rstrip('/')}/systemone"
+    for name in ("NACE_API_KEY", "DREX_API_KEY"):
+        raw = os.getenv(name) or ""
+        if not raw:
+            print(f"{name}: not set")
+            continue
+        k = raw.strip().strip("'\"").strip()
+        print(f"{name}: set, length {len(k)}, starts nace_sk_: {k.startswith('nace_sk_')}, cleaned quotes/whitespace: {k != raw}")
+        for model in config.DREX_MODELS:
+            try:
+                r = httpx.post(url, json=body | {"model": model}, headers={"Authorization": f"Bearer {k}"}, timeout=20)
+                print(f"   {model} @ {url} -> HTTP {r.status_code} {r.text[:120]!r}")
+            except Exception as e:
+                print(f"   {model} @ {url} -> {type(e).__name__}: {e}")
+    print(f"\nThe app uses {config.DREX_KEY_VAR or 'no key'} against {config.DREX_BASE_URL}")
+
+
 if __name__ == "__main__":
-    print(ping())
+    import sys
+
+    doctor() if "--doctor" in sys.argv else print(ping())
